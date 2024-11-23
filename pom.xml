@@ -218,6 +218,13 @@
                 <version>${sky.version}</version>
             </dependency>
 
+            <!--商家管理-->
+            <dependency>
+                <groupId>com.sky</groupId>
+                <artifactId>sky-merchant</artifactId>
+                <version>${sky.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
 
@@ -228,6 +235,8 @@
         <module>sky-quartz</module>
         <module>sky-generator</module>
         <module>sky-common</module>
+        <module>sky-merchant</module>
+        <module>sky-merchant</module>
     </modules>
     <packaging>pom</packaging>
 
