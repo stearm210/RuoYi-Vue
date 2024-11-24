@@ -104,6 +104,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         </foreach>
     </delete>
 
+
     <delete id="deleteDishFlavorByDishId" parameterType="Long">
         delete from tb_dish_flavor where dish_id = #{dishId}
     </delete>
