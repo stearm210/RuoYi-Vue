@@ -76,6 +76,7 @@ public class DishFlavor extends BaseEntity
             .append("value", getValue())
             .toString();
     }
+
 }
 
 
