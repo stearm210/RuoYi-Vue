@@ -12,6 +12,7 @@ import com.sky.common.core.domain.BaseEntity;
  * @date 2024-11-23
  */
 
+
 public class DishFlavor extends BaseEntity
 {
     private static final long serialVersionUID = 1L;
