@@ -62,6 +62,7 @@ public class DishController extends BaseController
     /**
      * 获取菜品管理详细信息
      */
+
     @PreAuthorize("@ss.hasPermi('merchant:dish:query')")
     @GetMapping(value = "/{id}")
     public AjaxResult getInfo(@PathVariable("id") Long id)
