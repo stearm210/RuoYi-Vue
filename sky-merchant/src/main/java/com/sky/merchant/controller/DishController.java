@@ -74,6 +74,7 @@ public class DishController extends BaseController
     /**
      * 新增菜品管理
      */
+
     @PreAuthorize("@ss.hasPermi('merchant:dish:add')")
     @Log(title = "菜品管理", businessType = BusinessType.INSERT)
     @PostMapping
